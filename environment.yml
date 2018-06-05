@@ -1,0 +1,16 @@
+name: bids_survey
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - geopandas
+  - geoplot
+  - geopy
+  - jupyterlab
+  - pip:
+    - python-Levenshtein
+    - quilt
